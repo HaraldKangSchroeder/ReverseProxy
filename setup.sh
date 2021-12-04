@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #https://www.youtube.com/watch?v=X3Pr5VATOyA
-echo "SHOW COUNTRY CODE"
+echo "COUNTRY CODE:"
 echo ${COUNTRY_NAME_2LETTER_CODE}
 echo "-------------"
 
