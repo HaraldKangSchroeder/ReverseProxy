@@ -1,6 +1,6 @@
 # ReverseProxy
 
-This is the setup of the reverse proxy with https and basic auth that I use together with my DIA project. [https://github.com/HaraldKangSchroeder/DigitalInformationAdministrator](https://github.com/HaraldKangSchroeder/DigitalInformationAdministrator)
+This is the setup of the reverse proxy with https (self signed) and basic auth that I use together with private projects. (e.g. [https://github.com/HaraldKangSchroeder/DigitalInformationAdministrator](https://github.com/HaraldKangSchroeder/DigitalInformationAdministrator))
 
 ## Setup
 1. The application comes along with Docker, specifically docker-compose, so you need to install those first - see [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
