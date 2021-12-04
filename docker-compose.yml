@@ -1,6 +1,7 @@
 version: "3.7"
 services:
     reverse-proxy:
+        restart: always
         build: .
         container_name: reverse-proxy
         environment:
@@ -15,5 +16,6 @@ services:
             AUTH_USERNAME: ${AUTH_USERNAME}
         volumes:
             - ./nginx.conf:/etc/nginx/nginx.conf
+            - ./html:/usr/share/nginx/html
         ports:
             - 443:443
